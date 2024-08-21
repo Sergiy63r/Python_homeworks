@@ -6,5 +6,8 @@ class Address:
         self.street = street
         self.number_home = home
         self.number_apartmen = apartmen
-        print(index, city, street, home, apartmen)
+
+
+    def __str__(self):
+        return f"{self.index}, {self.city}, {self.street}, {self.number_home} - {self.number_apartmen}"
 
