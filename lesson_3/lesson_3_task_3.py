@@ -1,4 +1,4 @@
-from gorod import Address
+from address import Address
 from pochta import Mailing
 
 adres1 = Address('445000', 'Тольятти', 'Ленина', '25', '47')
@@ -8,4 +8,4 @@ to_address = adres1
 from_address = adres2
 
 pochta = Mailing(to_address, from_address)
-pochta.track('DF3546', 4583)
+pochta.path('DF3546', 4583)

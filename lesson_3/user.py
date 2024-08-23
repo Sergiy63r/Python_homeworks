@@ -5,7 +5,7 @@ class User():
         self.first_name = first_name
 
 
-    def last_name_1(self, last_name):
+    def set_last_name(self, last_name):
         print("Фамилия ", last_name)
         self.last_name = last_name
 

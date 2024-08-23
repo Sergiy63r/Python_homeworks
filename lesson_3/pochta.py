@@ -9,6 +9,6 @@ class Mailing:
         self.to_address = to_address
         self.from_address = from_address
 
-    def track(self, track, cost):
+    def path(self, track, cost):
          print(track, 'Из', self.to_address, 'в', self.from_address, 'Итого: ', cost)
 
