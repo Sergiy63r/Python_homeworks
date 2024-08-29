@@ -1,0 +1,10 @@
+﻿Баг №1
+  Найдена ошибка в функции "def trim(self, string: str) -> str:". 
+Ошибка находиться в файле string_utils.py, строки 13-21.
+Параметр "string = string.removeprefix(whitespace)" не активен и 
+removeprefix подсвечивается белым, строка 20.
+
+Баг №2
+  Найдена ошибка в функции "def is_empty(self, string: str) -> bool:". 
+Ошибка находиться в файле string_utils.py, строки 90-98.
+Параметр "Пример 2: `is_empty(" ") -> True" - не выполняется.
