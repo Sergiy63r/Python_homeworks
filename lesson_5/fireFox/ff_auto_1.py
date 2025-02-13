@@ -12,3 +12,6 @@ search_input = driver.find_element(By.CSS_SELECTOR, '[class="modal-footer"]')
 sleep(3)
 
 search_input.click()
+sleep(2)
+
+driver.quit()
