@@ -14,3 +14,5 @@ browser.find_element(By.CSS_SELECTOR, "#updatingButton").click()
 
 button = browser.find_element(By.CSS_SELECTOR, "#updatingButton").text
 print(button)
+
+browser.quit()

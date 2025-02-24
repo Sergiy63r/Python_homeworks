@@ -13,3 +13,5 @@ browser.find_element(By.CSS_SELECTOR, '#ajaxButton').click()
 content = browser.find_element(By.CSS_SELECTOR, "#content")
 txt = content.find_element(By.CSS_SELECTOR, '.bg-success').text
 print(txt)
+
+browser.quit()
