@@ -11,5 +11,6 @@ def test_calc():
     calc.delay("45")
     ca = calc.calc()
     an = calc.answer()
+    browser.quit()
 
     assert ca == an

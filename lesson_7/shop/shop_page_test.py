@@ -13,6 +13,7 @@ def test_shop():
     sh.delivery_address()
     tot = sh.total()
     res = sh.result()
+
     browser.quit()
 
     assert tot == res
